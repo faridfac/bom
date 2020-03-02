@@ -36,7 +36,7 @@ function otp($no){
   $headers[] = 'Referer: https://www.sophieparis.com/customer/account/forgotpassword';
   $headers[] = 'Accept-Encoding: gzip, deflate, br';
   $headers[] = 'Accept-Language: en-ID,en-US;q=0.9,en;q=0.8';
-  $headers[] = 'Cookie: ins-gaSSId=599dd8b2-8d9b-a557-f923-0dafec07a54d_1583111730';
+  // $headers[] = 'Cookie: ins-gaSSId=599dd8b2-8d9b-a557-f923-0dafec07a54d_1583111730';
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
   $result = curl_exec($ch);
