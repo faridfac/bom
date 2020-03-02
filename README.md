@@ -1,1 +1,3 @@
 # bom
+
+php run.php
