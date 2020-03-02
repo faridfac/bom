@@ -8,7 +8,7 @@ for ($i=0; $i < $jumlah; $i++) {
   if (preg_match('/success/i', $execute)) {
     echo color($color = "green" , "[$i] Success send to $no\n");
   } else {
-    echo color($color = "red" , "$execute\n");
+    echo color($color = "red" , "Failed\n");
     exit();
   }
 }
